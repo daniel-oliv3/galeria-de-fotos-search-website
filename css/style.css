@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: #000;
 }
 
 .container {
@@ -24,6 +24,7 @@ body {
 .container .heading {
     font-size: 30px;
     padding-bottom: 25px;
+    color: #fff;
 }
 
 
@@ -103,6 +104,19 @@ body {
 
 @media (max-width: 768px){
 
+    .container .container-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 25px 20px;
+    }
+
+    .container .container-image .image {
+        width: 100%;
+    }
+
+    .container #search-box {
+        width: 90%;
+    }
 
 }
 
