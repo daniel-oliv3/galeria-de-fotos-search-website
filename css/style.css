@@ -122,8 +122,14 @@ body {
 
 @media (max-width: 450px){
 
-    html {
-        font-size: 50%;
+    .container .container-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 25px 20px;
+    }
+
+    .container .container-image .image {
+        width: 100%;
     }
 
 }
